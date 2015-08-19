@@ -1,0 +1,17 @@
+'''
+Created on 17 Aug 2015
+
+@author: David Monk
+'''
+
+import numpy as np
+
+
+def ArraytoTuple(array):
+    l = []
+    for i in array:
+        l.append(int(i))
+    return tuple(l)
+
+def LengthofVector(vector):
+    return np.linalg.norm(vector)
